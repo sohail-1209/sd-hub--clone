@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import sdhub from "../assets/sdhub.jpg"
 import all from "../assets/all.jpg"
 import bell from "../assets/bell.png"
+import { Link } from 'react-router'
 
 const Home = () => {
   const [count, setCount] = useState(0)
@@ -44,7 +45,8 @@ const Home = () => {
             but also softskills and language training to thrive in the competitive job market.
           </p>
           <button className="border border-blue-500 text-white px-8 lg:px-10 py-2 bg-[#5081ff] rounded-xl w-fit">
-            Contact us
+            <Link to="/contactt" className="hover:text-[#6094ff] hover:border-b-2 duration-200">Contact</Link>
+
           </button>
         </div>
         <div className="flex justify-center">
