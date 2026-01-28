@@ -55,7 +55,7 @@ const Home = () => {
           </p>
         </div>
 
-        <img className="w-full max-w-md mx-auto" src={all} alt="all" />
+        <img className="w-80% max-w-md mx-auto" src={all} alt="all" />
       </div>
 
    

@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link to="/contact" className="hover:text-[#6094ff] hover:border-b-2 duration-200">Courses</Link>
         <Link to="/services" className="hover:text-[#6094ff] hover:border-b-2 duration-200">Services</Link>
         <button className="border border-blue-500 text-blue-500 px-6 py-2 rounded-l hover:bg-[#6095ff] hover:text-white duration-300">
-          Contact us
+          <Link to="/contactt" className="hover:text-[#6094ff] hover:border-b-2 duration-200">Contact</Link>
         </button>
       </div>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
           <Link onClick={() => setOpen(false)} to="/contact">Courses</Link>
           <Link onClick={() => setOpen(false)} to="/services">Services</Link>
           <button className="border border-blue-500 text-blue-500 px-6 py-2 rounded hover:bg-[#6095ff] hover:text-white duration-300">
-            Contact us
+          <Link to="/contactt" className="hover:text-[#6094ff] hover:border-b-2 duration-200">Contact</Link>
           </button>
         </div>
       )}
